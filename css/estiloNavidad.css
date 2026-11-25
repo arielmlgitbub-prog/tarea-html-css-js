@@ -1,0 +1,247 @@
+body{
+    background-color: #fdfbf7;
+    color: #2b2b2b;
+    margin: 0px;
+    padding: 20px;
+}
+.principal{
+    border: 2px solid #d4af37;
+    background-color: #f4efe6;
+    padding: 15px;
+}
+.encabezado{
+    background-color: #165b33;
+    border: 2px solid #d4af37;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.encabezado h1{
+    margin: 0 0 15px 0;
+    color: #fdfbf7;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    background-color: #D5EB7F;
+    padding: 3px;
+    margin: 3px;
+}
+.menu li{
+    color: azure;
+    display: inline;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 220px;
+}
+.menu ul{
+    list-style: none;
+    color: azure;
+    padding: 15px 0;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+}
+.pie{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    color: #fdfbf7;
+    border: 2px solid #d4af37;
+    background-color: #165b33;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.contenido1 ul{
+    display: flex;
+}
+.contenido1 img{
+    width: 400px;
+    height: 400px;
+    padding: 1px;
+    margin: 25px;
+}
+.contenido1{
+    display: flex;
+}
+.contenido1 span{
+    font-size: 30px;
+    color: #d4af37;
+}
+table{
+    padding: 12px;
+    margin: 10px;
+    background-color: #fdfbf7;
+    border: 10px solid #165b33;
+}
+table td {
+    padding: 20px;
+}
+/*historia*/
+.contenido2{
+    padding: 20px;
+    display: flex;
+}
+#maqueta{
+    display: grid;
+    flex: 2;
+    grid-template-columns: repeat(2,1fr);
+}
+.izq{
+    background-color: #f4efe6;
+    border: 2px solid #165b33;
+    padding: 15px;
+    border-radius: 6px;
+}
+#derecha{
+    background-color: #f4efe6;
+    border: 2px solid #165b33;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+}
+#derecha img{
+    width: 350px;
+    margin-left: 200px;
+}
+.contenido2 p{
+    font-size: 32px;
+}
+/*personajes*/
+.tarjeta img{
+    margin-left: 100px;
+    width: 400px;
+    border: 2px solid #165b33;
+}
+.galeria{
+    display: flex;
+}
+.tarjeta h3{
+    text-align: center;
+    font-size: 37px;
+}
+.tarjeta button{
+    background-color: #D5EB7F;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+/*regalos*/
+.regalo{
+    text-align: center;
+    padding: 25px;
+}
+.caja-form{
+    width: 400px;
+    margin: 0 auto; 
+    background-color: #f4efe6;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+.caja-form label{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.caja-form input{
+    width: 100%;
+    padding: 8px;
+}
+.caja-form{
+    font-size: 25px;
+}
+.caja-form button{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+/*comidas*/
+.tienda{
+    padding: 20px;
+}
+.productos{
+    float: left;
+    width: 60%;
+}
+.producto{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    padding: 10px;
+    background-color: #f4efe6;
+    border: 2px solid #d4af37;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.producto img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.producto button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.producto button:hover {
+    background-color: #7a121b;
+}
+
+#carrito {
+    float: right;
+    width: 29%;
+    padding: 15px;
+    background-color: #f4efe6;
+    border: 2px solid #165b33;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#lista-carrito {
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+
+.total-texto {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7a121b;
+}
+
+.btn-comprar {
+    background-color: #165b33;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-vaciar {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.limpiar {
+    clear: both;
+}
